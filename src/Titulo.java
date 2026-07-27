@@ -1,11 +1,7 @@
 public class Titulo {
-    Private String nome;
+    private String nome;
 
-    public Private getString() {
-        return String;
-    }
-
-    public void setString(Private string) {
-        String = string;
+    public Titulo(String nome) {
+        this.nome = nome;
     }
 }

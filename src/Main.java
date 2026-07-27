@@ -24,5 +24,20 @@ class Main{
         System.out.println("Lista de números depois da ordenação");
         System.out.println(numeros);
 
+
+        System.out.println("----------------------------------");
+        Titulo titulo = new Titulo("");
+        Titulo t1 = new Titulo("Counter Strike 2");
+        Titulo t2 = new Titulo("Fortnite");
+        Titulo t3 = new Titulo("Minecraft");
+        Titulo t4 = new Titulo("Gta v");
+        Titulo t5 = new Titulo("Among Us");
+
+        List<Titulo> listaDeJogos = new ArrayList<>();
+        listaDeJogos.add(t1);
+        listaDeJogos.add(t2);
+        listaDeJogos.add(t3);
+        listaDeJogos.add(t4);
+        listaDeJogos.add(t5);
     }
 };
