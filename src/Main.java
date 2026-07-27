@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 class Main{
@@ -14,8 +15,14 @@ class Main{
         numeros.add(50);
         numeros.add(0);
         numeros.add(101);
+        numeros.add(3);
+        numeros.add(4);
+        numeros.add(4);
         System.out.println(numeros);
 
+        Collections.sort(numeros);
+        System.out.println("Lista de números depois da ordenação");
+        System.out.println(numeros);
 
     }
 };
