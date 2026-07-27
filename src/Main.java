@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 class Main{
@@ -45,6 +46,26 @@ class Main{
 
         System.out.println("Exibindo jogos depois de realizar a ordenação através do sort");
         System.out.println(listaDeJogos);
+
+        System.out.println("lista usando Linked List");
+        List<Integer> listaNova = new LinkedList<>();
+        listaNova.add(23);
+        listaNova.add(12);
+        listaNova.add(3);
+        listaNova.add(24);
+        listaNova.add(7);
+        listaNova.add(6);
+        listaNova.add(0);
+        listaNova.add(1);
+        listaNova.add(111);
+        listaNova.add(200);
+
+        System.out.println(listaNova);
+        System.out.println("Lista nova depois de ordenada");
+        Collections.sort(listaNova);
+        System.out.println(listaNova);
+
+
 
     }
 };
