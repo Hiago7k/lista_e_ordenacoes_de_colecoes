@@ -39,5 +39,7 @@ class Main{
         listaDeJogos.add(t3);
         listaDeJogos.add(t4);
         listaDeJogos.add(t5);
+
+        System.out.println(listaDeJogos);
     }
 };
