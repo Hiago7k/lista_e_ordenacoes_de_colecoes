@@ -41,5 +41,10 @@ class Main{
         listaDeJogos.add(t5);
 
         System.out.println(listaDeJogos);
+        Collections.sort(listaDeJogos);
+
+        System.out.println("Exibindo jogos depois de realizar a ordenação através do sort");
+        System.out.println(listaDeJogos);
+
     }
 };

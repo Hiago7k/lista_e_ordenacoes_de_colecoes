@@ -1,4 +1,4 @@
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
     private String nome;
 
     public Titulo(String nome) {
@@ -12,5 +12,10 @@ public class Titulo {
     @Override
     public String toString() {
         return "Nome do jogo: " + this.getNome();
+    }
+
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }
